@@ -1,0 +1,2102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: desk_lady
+  m_TargetType:
+    m_NativeTypeID: 21
+    m_ManagedTypePPtr: {fileID: 0}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Shader
+    value: 
+    objectReference: {fileID: 4800000, guid: 924301b3333658a4d9eb35f14317597e, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_ShaderKeywords
+    value: _NORMALMAP_TANGENT_SPACE
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_LightmapFlags
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EnableInstancingVariants
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_DoubleSidedGI
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_CustomRenderQueue
+    value: -1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: stringTagMap.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: stringTagMap.Array.data[0].first
+    value: MotionVector
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: stringTagMap.Array.data[0].second
+    value: User
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: disabledShaderPasses.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: disabledShaderPasses.Array.data[0]
+    value: DistortionVectors
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: disabledShaderPasses.Array.data[1]
+    value: MOTIONVECTORS
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: disabledShaderPasses.Array.data[2]
+    value: TransparentDepthPrepass
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: disabledShaderPasses.Array.data[3]
+    value: TransparentDepthPostpass
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: disabledShaderPasses.Array.data[4]
+    value: TransparentBackface
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.size
+    value: 24
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[0].first
+    value: MainTex
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[0].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[0].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[0].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[0].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[0].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[1].first
+    value: _AnisotropyMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[1].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[1].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[1].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[1].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[1].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[2].first
+    value: _BaseColorMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[2].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[2].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[2].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[2].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[2].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[3].first
+    value: _BentNormalMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[3].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[3].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[3].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[3].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[3].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[4].first
+    value: _BentNormalMapOS
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[4].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[4].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[4].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[4].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[4].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[5].first
+    value: _CoatMaskMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[5].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[5].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[5].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[5].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[5].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[6].first
+    value: _DetailMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[6].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[6].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[6].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[6].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[6].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[7].first
+    value: _DistortionVectorMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[7].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[7].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[7].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[7].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[7].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[8].first
+    value: _EmissiveColorMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[8].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[8].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[8].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[8].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[8].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[9].first
+    value: _HeightMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[9].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[9].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[9].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[9].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[9].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[10].first
+    value: _IridescenceMaskMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[10].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[10].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[10].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[10].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[10].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[11].first
+    value: _IridescenceThicknessMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[11].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[11].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[11].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[11].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[11].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[12].first
+    value: _MainTex
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[12].second.m_Texture
+    value: 
+    objectReference: {fileID: 2800000, guid: a55f2f274d652a84fbbfa569af2b0494, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[12].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[12].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[12].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[12].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[13].first
+    value: _MaskMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[13].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[13].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[13].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[13].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[13].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[14].first
+    value: _NormalMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[14].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[14].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[14].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[14].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[14].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[15].first
+    value: _NormalMapOS
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[15].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[15].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[15].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[15].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[15].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[16].first
+    value: _SampleTexture2D_11AD0D80_Texture_1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[16].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[16].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[16].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[16].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[16].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[17].first
+    value: _SpecularColorMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[17].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[17].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[17].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[17].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[17].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[18].first
+    value: _SubsurfaceMaskMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[18].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[18].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[18].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[18].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[18].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[19].first
+    value: _TangentMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[19].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[19].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[19].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[19].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[19].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[20].first
+    value: _TangentMapOS
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[20].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[20].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[20].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[20].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[20].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[21].first
+    value: _ThicknessMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[21].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[21].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[21].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[21].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[21].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[22].first
+    value: _TransmittanceColorMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[22].second.m_Texture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[22].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[22].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[22].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[22].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[23].first
+    value: main
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[23].second.m_Texture
+    value: 
+    objectReference: {fileID: 2800000, guid: ec30443e04482264d8690939af52a7d9, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[23].second.m_Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[23].second.m_Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[23].second.m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_TexEnvs.Array.data[23].second.m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.size
+    value: 130
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[0].first
+    value: _AORemapMax
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[0].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[1].first
+    value: _AORemapMin
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[1].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[2].first
+    value: _ATDistance
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[2].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[3].first
+    value: _AddPrecomputedVelocity
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[3].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[4].first
+    value: _AlbedoAffectEmissive
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[4].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[5].first
+    value: _AlphaCutoff
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[5].second
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[6].first
+    value: _AlphaCutoffEnable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[6].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[7].first
+    value: _AlphaCutoffPostpass
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[7].second
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[8].first
+    value: _AlphaCutoffPrepass
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[8].second
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[9].first
+    value: _AlphaCutoffShadow
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[9].second
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[10].first
+    value: _AlphaDstBlend
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[10].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[11].first
+    value: _AlphaSrcBlend
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[11].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[12].first
+    value: _Anisotropy
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[12].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[13].first
+    value: _Background
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[13].second
+    value: 0.55
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[14].first
+    value: _BlendMode
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[14].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[15].first
+    value: _CoatMask
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[15].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[16].first
+    value: _ColorFeathering
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[16].second
+    value: 0.246
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[17].first
+    value: _CullMode
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[17].second
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[18].first
+    value: _CullModeForward
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[18].second
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[19].first
+    value: _Cutoff
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[19].second
+    value: 0.151
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[20].first
+    value: _DepthOffsetEnable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[20].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[21].first
+    value: _Despill
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[21].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[22].first
+    value: _DespillLuminanceAdd
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[22].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[23].first
+    value: _DetailAlbedoScale
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[23].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[24].first
+    value: _DetailNormalScale
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[24].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[25].first
+    value: _DetailSmoothnessScale
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[25].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[26].first
+    value: _DiffusionProfile
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[26].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[27].first
+    value: _DiffusionProfileHash
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[27].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[28].first
+    value: _DisplacementLockObjectScale
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[28].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[29].first
+    value: _DisplacementLockTilingScale
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[29].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[30].first
+    value: _DisplacementMode
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[30].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[31].first
+    value: _DistortionBlendMode
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[31].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[32].first
+    value: _DistortionBlurBlendMode
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[32].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[33].first
+    value: _DistortionBlurDstBlend
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[33].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[34].first
+    value: _DistortionBlurRemapMax
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[34].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[35].first
+    value: _DistortionBlurRemapMin
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[35].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[36].first
+    value: _DistortionBlurScale
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[36].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[37].first
+    value: _DistortionBlurSrcBlend
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[37].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[38].first
+    value: _DistortionDepthTest
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[38].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[39].first
+    value: _DistortionDstBlend
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[39].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[40].first
+    value: _DistortionEnable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[40].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[41].first
+    value: _DistortionScale
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[41].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[42].first
+    value: _DistortionSrcBlend
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[42].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[43].first
+    value: _DistortionVectorBias
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[43].second
+    value: -1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[44].first
+    value: _DistortionVectorScale
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[44].second
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[45].first
+    value: _DoubleSidedEnable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[45].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[46].first
+    value: _DoubleSidedNormalMode
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[46].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[47].first
+    value: _DstBlend
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[47].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[48].first
+    value: _EmissiveColorMode
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[48].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[49].first
+    value: _EmissiveExposureWeight
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[49].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[50].first
+    value: _EmissiveIntensity
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[50].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[51].first
+    value: _EmissiveIntensityUnit
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[51].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[52].first
+    value: _EnableBlendModePreserveSpecularLighting
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[52].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[53].first
+    value: _EnableFogOnTransparent
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[53].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[54].first
+    value: _EnableGeometricSpecularAA
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[54].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[55].first
+    value: _EnergyConservingSpecularColor
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[55].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[56].first
+    value: _Feathering
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[56].second
+    value: 0.29
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[57].first
+    value: _Forground
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[57].second
+    value: 0.51
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[58].first
+    value: _HeightAmplitude
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[58].second
+    value: 0.02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[59].first
+    value: _HeightCenter
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[59].second
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[60].first
+    value: _HeightMapParametrization
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[60].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[61].first
+    value: _HeightMax
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[61].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[62].first
+    value: _HeightMin
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[62].second
+    value: -1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[63].first
+    value: _HeightOffset
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[63].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[64].first
+    value: _HeightPoMAmplitude
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[64].second
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[65].first
+    value: _HeightTessAmplitude
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[65].second
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[66].first
+    value: _HeightTessCenter
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[66].second
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[67].first
+    value: _InvTilingScale
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[67].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[68].first
+    value: _Ior
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[68].second
+    value: 1.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[69].first
+    value: _IridescenceMask
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[69].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[70].first
+    value: _IridescenceThickness
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[70].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[71].first
+    value: _LinkDetailsWithBase
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[71].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[72].first
+    value: _MaskFeathering
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[72].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[73].first
+    value: _MaterialID
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[73].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[74].first
+    value: _Metallic
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[74].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[75].first
+    value: _NormalMapSpace
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[75].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[76].first
+    value: _NormalScale
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[76].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[77].first
+    value: _PPDLodThreshold
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[77].second
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[78].first
+    value: _PPDMaxSamples
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[78].second
+    value: 15
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[79].first
+    value: _PPDMinSamples
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[79].second
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[80].first
+    value: _PPDPrimitiveLength
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[80].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[81].first
+    value: _PPDPrimitiveWidth
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[81].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[82].first
+    value: _ReceivesSSR
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[82].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[83].first
+    value: _RefractionModel
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[83].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[84].first
+    value: _SSRefractionProjectionModel
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[84].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[85].first
+    value: _Sharpening
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[85].second
+    value: 0.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[86].first
+    value: _SmoothStrength
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[86].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[87].first
+    value: _Smoothness
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[87].second
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[88].first
+    value: _SmoothnessRemapMax
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[88].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[89].first
+    value: _SmoothnessRemapMin
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[89].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[90].first
+    value: _SpecularAAScreenSpaceVariance
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[90].second
+    value: 0.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[91].first
+    value: _SpecularAAThreshold
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[91].second
+    value: 0.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[92].first
+    value: _SpecularOcclusionMode
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[92].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[93].first
+    value: _SrcBlend
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[93].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[94].first
+    value: _StencilRef
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[94].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[95].first
+    value: _StencilRefDepth
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[95].second
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[96].first
+    value: _StencilRefDistortionVec
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[96].second
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[97].first
+    value: _StencilRefGBuffer
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[97].second
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[98].first
+    value: _StencilRefMV
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[98].second
+    value: 40
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[99].first
+    value: _StencilWriteMask
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[99].second
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[100].first
+    value: _StencilWriteMaskDepth
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[100].second
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[101].first
+    value: _StencilWriteMaskDistortionVec
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[101].second
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[102].first
+    value: _StencilWriteMaskGBuffer
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[102].second
+    value: 14
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[103].first
+    value: _StencilWriteMaskMV
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[103].second
+    value: 40
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[104].first
+    value: _SubsurfaceMask
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[104].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[105].first
+    value: _SupportDecals
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[105].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[106].first
+    value: _SurfaceType
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[106].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[107].first
+    value: _TexWorldScale
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[107].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[108].first
+    value: _TexWorldScaleEmissive
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[108].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[109].first
+    value: _Thickness
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[109].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[110].first
+    value: _TransmissionEnable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[110].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[111].first
+    value: _TransparentBackfaceEnable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[111].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[112].first
+    value: _TransparentCullMode
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[112].second
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[113].first
+    value: _TransparentDepthPostpassEnable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[113].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[114].first
+    value: _TransparentDepthPrepassEnable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[114].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[115].first
+    value: _TransparentSortPriority
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[115].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[116].first
+    value: _TransparentWritingMotionVec
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[116].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[117].first
+    value: _TransparentZWrite
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[117].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[118].first
+    value: _UVBase
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[118].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[119].first
+    value: _UVDetail
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[119].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[120].first
+    value: _UVEmissive
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[120].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[121].first
+    value: _UseEmissiveIntensity
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[121].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[122].first
+    value: _UseShadowThreshold
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[122].second
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[123].first
+    value: _ZTestDepthEqualForOpaque
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[123].second
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[124].first
+    value: _ZTestGBuffer
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[124].second
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[125].first
+    value: _ZTestModeDistortion
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[125].second
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[126].first
+    value: _ZTestTransparent
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[126].second
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[127].first
+    value: _ZWrite
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[127].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[128].first
+    value: bleed
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[128].second
+    value: 0.709
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[129].first
+    value: key
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Floats.Array.data[129].second
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.size
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[0].first
+    value: _BaseColor
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[0].second.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[0].second.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[0].second.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[0].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[1].first
+    value: _BaseColorMap_MipInfo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[1].second.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[1].second.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[1].second.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[1].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[2].first
+    value: _Color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[2].second.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[2].second.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[2].second.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[2].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[3].first
+    value: _DiffusionProfileAsset
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[3].second.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[3].second.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[3].second.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[3].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[4].first
+    value: _DirectionalLight
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[4].second.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[4].second.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[4].second.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[4].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[5].first
+    value: _DoubleSidedConstants
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[5].second.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[5].second.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[5].second.b
+    value: -1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[5].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[6].first
+    value: _EmissionColor
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[6].second.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[6].second.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[6].second.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[6].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[7].first
+    value: _EmissiveColor
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[7].second.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[7].second.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[7].second.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[7].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[8].first
+    value: _EmissiveColorLDR
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[8].second.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[8].second.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[8].second.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[8].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[9].first
+    value: _InvPrimScale
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[9].second.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[9].second.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[9].second.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[9].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[10].first
+    value: _IridescenceThicknessRemap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[10].second.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[10].second.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[10].second.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[10].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[11].first
+    value: _KeyColor
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[11].second.r
+    value: 0.18039216
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[11].second.g
+    value: 0.78823537
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[11].second.b
+    value: 0.15294118
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[11].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[12].first
+    value: _SpecularColor
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[12].second.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[12].second.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[12].second.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[12].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[13].first
+    value: _ThicknessRemap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[13].second.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[13].second.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[13].second.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[13].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[14].first
+    value: _TiltColor
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[14].second.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[14].second.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[14].second.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[14].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[15].first
+    value: _TintColor
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[15].second.r
+    value: 0.990566
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[15].second.g
+    value: 0.97313964
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[15].second.b
+    value: 0.88309896
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[15].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[16].first
+    value: _TransmittanceColor
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[16].second.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[16].second.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[16].second.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[16].second.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[17].first
+    value: _UVDetailsMappingMask
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[17].second.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[17].second.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[17].second.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[17].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[18].first
+    value: _UVMappingMask
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[18].second.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[18].second.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[18].second.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[18].second.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[19].first
+    value: _UVMappingMaskEmissive
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[19].second.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[19].second.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[19].second.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SavedProperties.m_Colors.Array.data[19].second.a
+    value: 0
+    objectReference: {fileID: 0}
