@@ -3,7 +3,9 @@ This repository holds examples and source code for a simple, yet powerful Chroma
 
 ## Usage
 **This shader is designed for HDRP, but you can easily convert it to URP**
+
 Once you've got the files in your project: Assign the Chromakey shader to a material of your choice and attach that material to a quad / plane. Provide an image to the material or use a VideoPlayer to feed an image in. 
+
 **Why this approach?** It is the most verstile. Screenspace effects are complicated, clunky and difficult to modify. They also cannot be placed in a scene worldspace easily. This shader is simple, only a few hundred lines and *is a single pass*. It is excellent for quickly blocking out greenscreen footage or even final composites.
 This repository is *not* an entire project, as that annoys me endlessly. You don't need all my project cruft *yuck*. This is simply a few files you can toss into your project and *actually use*.
 
