@@ -10,10 +10,10 @@ Once you've got the files in your project: Assign the Chromakey shader to a mate
 This repository is *not* an entire project, as that annoys me endlessly. You don't need all my project cruft *yuck*. This is simply a few files you can toss into your project and *actually use*.
 
 ## Features
-* Standard Chromakeying for *green screen only*. Modification would be required to work with a bluescreen (Despill algorithm changes)
-* Simple edge feathering. This is a single pixel blur approach, but enough for 99% of shots (when do you actually need a crazy 15 pixel deep blur?!?). I will probably expand the Kernal to a larger box blur in the future anyway)
-* Simple edge sharpening (Sharpen up blurred edges to give a more anti-aliased feeling as opposed to just blur)
-* Despill correction (Getting rid of that pesky green light)
+* **Standard Chromakeying:** (*green screen only*). Modification would be required to work with a bluescreen (Despill algorithm changes)
+* **Simple edge feathering:** This is a single pixel blur approach, but enough for 99% of shots (when do you actually need a crazy 15 pixel deep blur?!?). I will probably expand the Kernal to a larger box blur in the future anyway)
+* **Simple edge sharpening:** (Sharpen up blurred edges to give a more anti-aliased feeling as opposed to just blur)
+* **Despill correction:** Getting rid of that pesky green light
 * Simple usage, only a single shader and a single pass
 * Example presets you can load onto the material (for the existing examples)
 
