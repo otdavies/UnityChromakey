@@ -138,13 +138,13 @@ Material:
     - _Background: 0.55
     - _BlendMode: 0
     - _CoatMask: 0
-    - _ColorFeathering: 0.298
+    - _ColorFeathering: 0.328
     - _CullMode: 2
     - _CullModeForward: 2
     - _Cutoff: 0.256
     - _DepthOffsetEnable: 0
     - _Despill: 1
-    - _DespillLuminanceAdd: 0.2
+    - _DespillLuminanceAdd: 0
     - _DetailAlbedoScale: 1
     - _DetailNormalScale: 1
     - _DetailSmoothnessScale: 1
