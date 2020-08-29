@@ -19,6 +19,9 @@ This repository is *not* an entire project, as that annoys me endlessly. You don
 
 ## Examples
 
+Here are the controls used to tune for the following images:
+![](Examples/Images/Controls.png)
+
 **Note:** Have mercy on the GIF compression and the fact that this footage was downloaded from Youtube, so it already has compression artifacts within it. It would look *considerably* better with nice clean source footage.
 
 ![](Examples/Images/Shia.gif)
