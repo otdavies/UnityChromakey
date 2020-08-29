@@ -18,20 +18,33 @@ This repository is *not* an entire project, as that annoys me endlessly. You don
 * Example presets you can load onto the material (for the existing examples)
 
 ## Examples
+
 **Note:** Have mercy on the GIF compression and the fact that this footage was downloaded from Youtube, so it already has compression artifacts within it. It would look *considerably* better with nice clean source footage.
+
 ![](Examples/Images/Shia.gif)
 ![](Examples/Images/Shia2.gif)
 ![](Examples/Images/Distant.gif)
+
 **Note:** This is an example of Despill correction being toggled. Watch the edges for green.
+
 ![](Examples/Images/Despill.gif)
+
 **Note:** This is *reflective* armor. Reflective. The nightmare for greenscreen. Looks pretty good to me!
+
 ![](Examples/Images/ReflectiveArmor.png)
+![](Examples/Images/Armorguywithoutchroma.png)
+![](Examples/Images/Armorguywithchroma.png)
+
+**Note:** This is me controlling the strength of the Despill correction.
+
+![](Examples/Images/DespillWorstCaseExample.gif)
 
 ## Modification
 You are free to modify and improve on this simple approach. I would suggest contributing the changes to an open source community of some kind, better we all have good tools.
 
 ## Primary sources in the creation of this tool
 http://gc-films.com/chromakey.html
+
 https://benmcewan.com/blog/2018/05/20/understanding-despill-algorithms/
 
 ## Disclaimers
