@@ -42,8 +42,6 @@
             struct v2f
             {
                 float2 uv : TEXCOORD0;
-                float3 worldPos: TEXCOORD1;
-                float3 objPos: TEXCOORD2;
                 float4 vertex : SV_POSITION;
             };
 
@@ -83,11 +81,6 @@
                 return (1);
             }
 
-            float changeContrast(float v, float c)
-            {
-                return ((v - 0.5f) * max(c, 0)) + 0.5f;
-            }
-
             float maskedTex2D(sampler2D tex, float2 uv)
             {
                 float4 color = tex2D(tex, uv);
@@ -107,8 +100,6 @@
             v2f vert (appdata v)
             {
                 v2f o;
-                o.worldPos = mul (unity_ObjectToWorld, v.vertex);
-                o.objPos = v.vertex;
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 return o;
