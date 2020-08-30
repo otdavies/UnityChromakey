@@ -8,12 +8,13 @@ Shader "Unlit/ChromaKey"
         _MainTex ("Texture", 2D) = "white" {}
         _KeyColor("KeyColor", Color) = (0,1,0,0)
         _TintColor("TintColor", Color) = (1,1,1,1)
-        _Cutoff("Cutoff", Range(0, 1)) = 1
-        _ColorFeathering("ColorFeathering", Range(0, 1)) = 1
+        _ColorCutoff("Cutoff", Range(0, 1)) = 0.2
+        _ColorFeathering("ColorFeathering", Range(0, 1)) = 0.33
         _MaskFeathering("MaskFeathering", Range(0, 1)) = 1
-        _Sharpening("Sharpening", Range(0, 1)) = 0
-        _Despill("DespillStrength", Range(0, 1)) = 0
-        _DespillLuminanceAdd("DespillLuminanceAdd", Range(0, 1)) = 0
+        _Sharpening("Sharpening", Range(0, 1)) = 0.5
+
+        _Despill("DespillStrength", Range(0, 1)) = 1
+        _DespillLuminanceAdd("DespillLuminanceAdd", Range(0, 1)) = 0.2
     }
     SubShader
     {
@@ -21,11 +22,11 @@ Shader "Unlit/ChromaKey"
         {
             "RenderPipeline"="HDRenderPipeline"
             "RenderType"="HDUnlitShader"
-            "Queue" = "Transparent+0"
+            "Queue" = "Transparent"
         }
 
-        ZWrite Off
         Blend SrcAlpha OneMinusSrcAlpha
+		ZWrite Off
         cull off
 
         Pass
@@ -53,14 +54,15 @@ Shader "Unlit/ChromaKey"
             float4 _MainTex_ST;
             float4 _KeyColor;
             float4 _TintColor;
-            float _Cutoff;
+            float _ColorCutoff;
             float _ColorFeathering;
             float _MaskFeathering;
             float _Sharpening;
             float _Despill;
             float _DespillLuminanceAdd;
 
-            // Utility funcs
+            // Utility functions -----------
+
             float rgb2y(float3 c) 
             {
                 return (0.299*c.r + 0.587*c.g + 0.114*c.b);
@@ -94,10 +96,10 @@ Shader "Unlit/ChromaKey"
                 float pix_cb = rgb2cb(color.rgb);
                 float pix_cr = rgb2cr(color.rgb);
 
-                return colorclose(pix_cb, pix_cr, key_cb, key_cr, _Cutoff, _ColorFeathering);
+                return colorclose(pix_cb, pix_cr, key_cb, key_cr, _ColorCutoff, _ColorFeathering);
             }
 
-            //--------------
+            //-------------------------
 
             v2f vert (appdata v)
             {
@@ -109,11 +111,14 @@ Shader "Unlit/ChromaKey"
 
             float4 frag (v2f i) : SV_Target
             {
+				// Get pixel width
                 float2 pixelWidth = float2(1.0 / _MainTex_TexelSize.z, 0);
                 float2 pixelHeight = float2(0, 1.0 / _MainTex_TexelSize.w);
+				
+				// Unmodified MainTex
                 float4 color = tex2D(_MainTex, i.uv);
 
-                // Flat unfeathered mask
+                // Unfeathered mask
                 float mask = maskedTex2D(_MainTex, i.uv);
 
                 // Feathering & smoothing
@@ -136,7 +141,6 @@ Shader "Unlit/ChromaKey"
                 float4 dif = (color - result);
                 float desaturatedDif = rgb2y(dif.xyz);
                 result += lerp(0, desaturatedDif, _DespillLuminanceAdd);
-                float4 test = result + desaturatedDif;
                 
                 return float4(result.xyz * _TintColor, smoothedMask);
             }
