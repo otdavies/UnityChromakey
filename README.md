@@ -1,5 +1,5 @@
 # UnityChromakey
-A powerful chromakey / greenscreen solution for Unity. Designed to be used with virtual production.
+A simple, yet powerful chromakey / greenscreen solution for Unity. Designed to be used with virtual production.
 
 ## Usage
 **This shader is designed for HDRP, but you can easily convert it to URP**
