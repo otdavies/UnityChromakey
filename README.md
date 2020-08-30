@@ -29,13 +29,13 @@ This repository is *not* an entire project, as that annoys me endlessly. You don
 
 ![](Examples/Images/Despill.gif)
 
-Here are the controls used to tune for the following images:
-
-![](Examples/Images/Controls.png)
-
 **Note:** This is *reflective* armor. Reflective. The nightmare for greenscreen. Looks pretty good to me!
 
 ![](Examples/Images/ReflectiveArmor.png)
+
+Here are the controls used to tune for the following images:
+
+![](Examples/Images/Controls.png)
 ![](Examples/Images/Armorguywithoutchroma.png)
 ![](Examples/Images/Armorguywithchroma.png)
 
