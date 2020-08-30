@@ -1,4 +1,7 @@
-﻿Shader "Unlit/ChromaKey"
+﻿// Created by Oliver Davies. Enjoy. 
+// oliver@psyfer.io
+
+Shader "Unlit/ChromaKey"
 {
     Properties
     {
@@ -134,6 +137,7 @@
                 float desaturatedDif = rgb2y(dif.xyz);
                 result += lerp(0, desaturatedDif, _DespillLuminanceAdd);
                 float4 test = result + desaturatedDif;
+                
                 return float4(result.xyz * _TintColor, smoothedMask);
             }
             ENDCG
