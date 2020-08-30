@@ -1,5 +1,5 @@
 # UnityChromakey
-This repository holds examples and source code for a simple, yet powerful chromakeying solution. This is designed to be used with virtual production.
+This repository holds examples and source code for a powerful chromakeying solution. This is designed to be used with virtual production. Usage is limited to a greenscreen, but can be extended to support bluescreen easily.
 
 ## Usage
 **This shader is designed for HDRP, but you can easily convert it to URP**
