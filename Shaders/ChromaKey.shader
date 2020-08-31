@@ -26,7 +26,7 @@ Shader "Unlit/ChromaKey"
         }
 
         Blend SrcAlpha OneMinusSrcAlpha
-		ZWrite Off
+        ZWrite Off
         cull off
 
         Pass
@@ -111,11 +111,11 @@ Shader "Unlit/ChromaKey"
 
             float4 frag (v2f i) : SV_Target
             {
-				// Get pixel width
+                // Get pixel width
                 float2 pixelWidth = float2(1.0 / _MainTex_TexelSize.z, 0);
                 float2 pixelHeight = float2(0, 1.0 / _MainTex_TexelSize.w);
-				
-				// Unmodified MainTex
+                
+                // Unmodified MainTex
                 float4 color = tex2D(_MainTex, i.uv);
 
                 // Unfeathered mask
