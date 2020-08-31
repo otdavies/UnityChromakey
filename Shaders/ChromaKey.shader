@@ -80,9 +80,11 @@ Shader "Unlit/ChromaKey"
 
             float colorclose(float Cb_p, float Cr_p, float Cb_key, float Cr_key, float tola, float tolb)
             {
-                float temp = sqrt((Cb_key-Cb_p)*(Cb_key-Cb_p)+(Cr_key-Cr_p)*(Cr_key-Cr_p));
-                if (temp < tola) return (0);
-                if (temp < tolb) return (temp-tola)/(tolb-tola);
+                float temp = (Cb_key-Cb_p)*(Cb_key-Cb_p)+(Cr_key-Cr_p)*(Cr_key-Cr_p);
+                float tola2 = tola*tola;
+                float tolb2 = tolb*tolb;
+                if (temp < tola2) return (0);
+                if (temp < tolb2) return (temp-tola2)/(tolb2-tola2);
                 return (1);
             }
 
