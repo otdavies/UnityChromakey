@@ -74,7 +74,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6241ded0140879f4e9c4a87db9017ada, type: 3}
+        m_Texture: {fileID: 2800000, guid: 745e6274b56326f4992c328985a1075b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
@@ -139,10 +139,10 @@ Material:
     - _BlendMode: 0
     - _CoatMask: 0
     - _ColorCutoff: 0.2
-    - _ColorFeathering: 0.298
+    - _ColorFeathering: 0.3
     - _CullMode: 2
     - _CullModeForward: 2
-    - _Cutoff: 0.256
+    - _Cutoff: 0.1
     - _DepthOffsetEnable: 0
     - _Despill: 1
     - _DespillLuminanceAdd: 0
@@ -208,7 +208,7 @@ Material:
     - _ReceivesSSR: 1
     - _RefractionModel: 0
     - _SSRefractionProjectionModel: 0
-    - _Sharpening: 0.731
+    - _Sharpening: 0.5
     - _SmoothStrength: 0
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 1
@@ -265,7 +265,7 @@ Material:
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
-    - _KeyColor: {r: 0.16981138, g: 0.9433962, b: 0, a: 1}
+    - _KeyColor: {r: 0.59126914, g: 0.9716981, b: 0.6853537, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _TiltColor: {r: 1, g: 1, b: 1, a: 1}

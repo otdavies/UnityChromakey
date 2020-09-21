@@ -22,7 +22,7 @@ Shader "Unlit/ChromaKey"
         {
             "RenderPipeline"="HDRenderPipeline"
             "RenderType"="HDUnlitShader"
-            "Queue" = "Transparent"
+            "Queue" = "Transparent+1"
         }
 
         Blend SrcAlpha OneMinusSrcAlpha
@@ -32,6 +32,7 @@ Shader "Unlit/ChromaKey"
         Pass
         {
             CGPROGRAM
+
             #pragma vertex vert
             #pragma fragment frag
 
@@ -47,6 +48,7 @@ Shader "Unlit/ChromaKey"
             {
                 float2 uv : TEXCOORD0;
                 float4 vertex : SV_POSITION;
+				//float4 uvgrab : TEXCOORD1;
             };
 
             sampler2D _MainTex;
@@ -60,6 +62,12 @@ Shader "Unlit/ChromaKey"
             float _Sharpening;
             float _Despill;
             float _DespillLuminanceAdd;
+			//sampler2D _GrabTexture;
+			//float4 _GrabTexture_TexelSize;
+
+			#define GRABXYPIXEL(kernelx, kernely) tex2Dproj( _GrabTexture, UNITY_PROJ_COORD(float4(i.uvgrab.x + _GrabTexture_TexelSize.x * kernelx, i.uvgrab.y + _GrabTexture_TexelSize.y * kernely, i.uvgrab.z, i.uvgrab.w)))
+
+
 
             // Utility functions -----------
 
@@ -107,6 +115,8 @@ Shader "Unlit/ChromaKey"
             {
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
+				//o.uvgrab.xy = (float2(o.vertex.x, o.vertex.y) + o.vertex.w) * 0.5;
+				//o.uvgrab.zw = o.vertex.zw;
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 return o;
             }
@@ -116,7 +126,11 @@ Shader "Unlit/ChromaKey"
                 // Get pixel width
                 float2 pixelWidth = float2(1.0 / _MainTex_TexelSize.z, 0);
                 float2 pixelHeight = float2(0, 1.0 / _MainTex_TexelSize.w);
-                
+
+
+				//float2 uv = i.uv.xy;
+				//half4 grab = GRABXYPIXEL(0,0);
+
                 // Unmodified MainTex
                 float4 color = tex2D(_MainTex, i.uv);
 
@@ -144,7 +158,7 @@ Shader "Unlit/ChromaKey"
                 float desaturatedDif = rgb2y(dif.xyz);
                 result += lerp(0, desaturatedDif, _DespillLuminanceAdd);
                 
-                return float4(result.xyz * _TintColor, smoothedMask);
+                return float4(result.xyz, smoothedMask);
             }
             ENDCG
         }
