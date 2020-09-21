@@ -21,7 +21,6 @@ This repository is *not* an entire project, as that annoys me endlessly. You don
 
 **Note:** Have mercy on the GIF compression and the fact that this footage was downloaded from YouTube, so it already has compression artifacts within it. It would look *considerably* better with nice clean source footage.
 
-![](Examples/Images/1080p30fps.gif)
 ![](Examples/Images/Shia.gif)
 ![](Examples/Images/Shia2.gif)
 ![](Examples/Images/Distant.gif)
@@ -43,6 +42,9 @@ Here are the controls used to tune for the following images:
 **Note:** This is me controlling the strength of the Despill correction.
 
 ![](Examples/Images/DespillWorstCaseExample.gif)
+
+**Example of really poor greenscreen situation + DSLR as webcam:**
+![](Examples/Images/1080p30fps.gif)
 
 ## Modification
 You are free to modify and improve on this simple approach. I would suggest contributing the changes to an open source community of some kind, it's better that we all have good tools.
