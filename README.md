@@ -21,6 +21,7 @@ This repository is *not* an entire project, as that annoys me endlessly. You don
 
 **Note:** Have mercy on the GIF compression and the fact that this footage was downloaded from YouTube, so it already has compression artifacts within it. It would look *considerably* better with nice clean source footage.
 
+![](Examples/Images/1080p30fps.gif)
 ![](Examples/Images/Shia.gif)
 ![](Examples/Images/Shia2.gif)
 ![](Examples/Images/Distant.gif)
