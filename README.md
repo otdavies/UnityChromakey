@@ -2,7 +2,7 @@
 A simple, yet powerful chromakey / greenscreen solution for Unity. Designed to be used with virtual production.
 
 ## Usage
-**This shader is designed for HDRP, but you can easily convert it to URP**
+**This shader works in HDRP & URP**
 
 Once you've got the files in your project: Assign the chromakey shader to a material of your choice and attach that material to a quad / plane. Provide an image to the material or use a VideoPlayer to feed an image in. 
 
