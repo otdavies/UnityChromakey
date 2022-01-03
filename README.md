@@ -47,7 +47,7 @@ Here are the controls used to tune for the following images:
 ![](Examples/Images/1080p30fps.gif)
 
 ## Modification
-You are free to modify and improve on this simple approach. I would suggest contributing the changes to an open source community of some kind, it's better that we all have good tools.
+You are free to modify and improve on this simple approach. I suggest creating a pull request with your changes!
 
 ## Primary sources in the creation of this tool
 http://gc-films.com/chromakey.html
