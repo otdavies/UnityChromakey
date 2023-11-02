@@ -1,4 +1,6 @@
 # UnityChromakey
+*Disclaimer: Unity has changed a lot since I originally implemented this simple shader, it may no longer work as intended in all render pipelines and conditions.*
+
 A simple, yet powerful chromakey / greenscreen solution for Unity. Designed to be used with virtual production.
 
 ## Usage
